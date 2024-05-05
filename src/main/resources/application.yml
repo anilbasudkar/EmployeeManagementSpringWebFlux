@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+#      host: cluster0.ukou3ht.mongodb.net
+      database: LearningDatabase
+#      username: basudkaranillearning2024
+#      password: TifLC@2024
+      # password is TifLC@2024 but changed in below uri value @ is replaced with %40
+      uri: mongodb+srv://basudkaranillearning2024:TifLC%402024@cluster0.ukou3ht.mongodb.net/
